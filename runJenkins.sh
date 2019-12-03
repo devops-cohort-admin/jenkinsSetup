@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 sudo apt update
 sudo apt install -y openjdk-8-jdk
-sudo apt install -y maven
 
 wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
 
